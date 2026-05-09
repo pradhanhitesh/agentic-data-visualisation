@@ -1,0 +1,10 @@
+*.venv
+*venv
+*.csv
+*.xlsx
+__pycache__
+
+local
+assets
+credentials.env
+.DS_Store
