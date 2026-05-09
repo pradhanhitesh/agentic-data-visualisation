@@ -5,6 +5,6 @@
 __pycache__
 
 local
-assets
+backend/assets
 credentials.env
 .DS_Store
