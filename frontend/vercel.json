@@ -1,0 +1,8 @@
+{
+    "rewrites": [
+        {
+            "source": "/api/:path*",
+            "destination": "https://agentic-data-visualisation.onrender.com/api/:path*"
+        }
+    ]
+}
