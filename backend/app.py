@@ -46,6 +46,7 @@ def create_app():
 
     # Index route
     @app.route("/")
+    @limiter.exempt
     def index():
         return jsonify({
             "message": "API running"
@@ -53,6 +54,7 @@ def create_app():
 
     # Health route
     @app.route("/api/v1/health")
+    @limiter.exempt
     def health():
         return jsonify({
             "status": "ok"
